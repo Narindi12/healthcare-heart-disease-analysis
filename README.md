@@ -1,18 +1,32 @@
-# Heart Disease Risk Factors Analysis
+# Healthcare Data Analysis – Heart Disease Risk Factors
 
-This project explores a public heart disease dataset to identify key risk factors and build a simple predictive model.
+## Overview
+This project analyzes a healthcare dataset to identify key risk factors associated with heart disease and builds a baseline predictive model.
 
-## Objectives
+## Dataset
+- Source: Kaggle – Heart Disease Dataset
+- Rows: ~XXX
+- Features: Clinical and demographic variables
 
-- Perform data cleaning and exploratory data analysis (EDA)
-- Visualize relationships between clinical variables and heart disease
-- Train a baseline classification model (Logistic Regression)
-- Summarize insights and potential business implications
-
-## Tech Stack
-
+## Tools & Technologies
 - Python (Pandas, NumPy)
 - Visualization: Matplotlib, Seaborn
 - Machine Learning: Scikit-learn
 - Environment: Anaconda, Jupyter Notebook
-- Dataset: Heart Disease dataset from Kaggle
+
+## Key Analysis
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Correlation analysis
+- Logistic Regression model for prediction
+
+## Results
+- Identified major contributing factors such as age, cholesterol, and exercise-induced angina
+- Logistic Regression achieved ~XX% accuracy
+
+## How to Run
+```bash
+conda create -n healthcare_eda python=3.11
+conda activate healthcare_eda
+pip install -r requirements.txt
+jupyter notebook
